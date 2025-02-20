@@ -1,5 +1,7 @@
 FROM node
 
+WORKDIR /APP
+
 COPY . .
 
 EXPOSE 300

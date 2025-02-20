@@ -82,6 +82,8 @@ sh
 Copy
 Edit
 docker volume create myvolume
-docker run -v myvolume:/app/data myimage
+docker run -it -v myfolderpath:myconatinerpath myimage
+
+
 🎯 Conclusion
 This cheat sheet covers the essentials of Docker, including images, containers, Compose, networking, and volumes. 🚀 Keep experimenting and mastering Docker!
